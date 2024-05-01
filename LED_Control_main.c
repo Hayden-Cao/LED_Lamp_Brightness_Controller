@@ -17,6 +17,8 @@ void PWM_calc(uint8_t num_digits);
 void __interrupt(low_priority) RX_ISR();
 void __interrupt(high_priority) Rotary_Encoder_ISR();
 
+
+// global variables for the ISRs to change
 char data_in[32];
 uint8_t index_count = 0;
 uint8_t pwm_val = 0;
