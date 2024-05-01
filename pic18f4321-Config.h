@@ -1,3 +1,6 @@
+// PIC18F4321 Config file
+// Internal oscillator, Brown Out Reset = OFF, Watch Dog Timer = OFF, Low Voltage Programming = OFF
+
 
 #ifndef XC_HEADER_TEMPLATE_H
 #define	XC_HEADER_TEMPLATE_H
