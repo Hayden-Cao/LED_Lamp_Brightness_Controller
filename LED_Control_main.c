@@ -164,7 +164,9 @@ void PWM_init()
     // Digital I/O
     ADCON1 = 0x0F;
     T2CON = 0x01;
-    // 2 KHz PWM signal 
+    // 2 KHz PWM signal
+    // PWM period = (PR2 + 1) * (Tosc) * TMR2 prescaler
+    // Tosc = (1 / 8 Mhz), TMR2 Prescaler = 4
     PR2 = 249;
     CCPR1L = 0;
     // PWM Mode
