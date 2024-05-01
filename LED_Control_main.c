@@ -57,21 +57,15 @@ void main(void)
         num_digits = 0;
         while(data_in[num_digits] != '\0')
             num_digits++;
+
+        // RX_got flags when there is a UART transmission
+        // PWM_calc will only get called when there is a UART transmission
         
         if(RX_got)
         {
             pwm_val = 0;
             PWM_calc(num_digits);
-            
-            if(last_pwm_val != pwm_val)
-            {
-                last_pwm_val = pwm_val;
-                CCPR1L = last_pwm_val;
-            } 
-            else
-            {
-                last_pwm_val = pwm_val;
-            }
+            CCPR1L = pwm_val;
             RX_got = false;
         } 
         else
