@@ -102,7 +102,9 @@ void PWM_calc(uint8_t num_digits)
 {
     uint8_t temp = 0;
     uint8_t multiplier = 0;
-    
+
+    // Calculates what pwm_val based on the given digits
+    // switch case will swap between the cases of 1, 2, and 3 digits inputted
     switch(num_digits)
     {
         case 1:
