@@ -200,11 +200,14 @@ void __interrupt(low_priority) RX_ISR()
         if((RCREG >= 48 && RCREG <= 57) || RCREG == 0)
         {
             data_in[index_count] = RCREG;
-            
+
+            // 0 == null character '\0'
+            // Index is reset when the null character is receieved
             if(data_in[index_count] == 0)
             {
                 index_count = 0;
-            } else
+            } 
+            else
             {
                 index_count++;
             }
