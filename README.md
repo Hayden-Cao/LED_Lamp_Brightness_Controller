@@ -35,4 +35,6 @@ External peripherals such as a clock or temperature sensor can be added for extr
 
 Prototype Demonstration:
 
+To View Click on the Image to open the Youtube Link
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/NrTSRcypTo4/0.jpg)](http://www.youtube.com/watch?v=NrTSRcypTo4 "LED Lamp Brightness Controller Prototype Demonstration")
