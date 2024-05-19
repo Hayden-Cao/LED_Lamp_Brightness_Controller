@@ -83,5 +83,4 @@ uint8_t read_temp()
 
     return temp;
 
-
 }
