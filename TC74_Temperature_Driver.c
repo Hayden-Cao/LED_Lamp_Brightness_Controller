@@ -82,5 +82,4 @@ uint8_t read_temp()
     while(SSPCON2bits.PEN);
 
     return temp;
-
 }
