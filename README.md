@@ -35,4 +35,4 @@ External peripherals such as a clock or temperature sensor can be added for extr
 
 Prototype Demonstration:
 
-[https://youtu.be/NrTSRcypTo4](https://www.youtube.com/watch?v=NrTSRcypTo4&ab_channel=HaydenCao)
+https://youtu.be/NrTSRcypTo4
