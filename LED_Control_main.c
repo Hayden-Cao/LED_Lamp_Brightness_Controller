@@ -232,6 +232,10 @@ void __interrupt(high_priority) Rotart_Encoder_ISR()
         } else
         {
             pwm_val++;
+            if (pwm_val >= 200)
+            {
+                pwm_val = 255;
+            }
         }
     } 
     else
@@ -243,6 +247,10 @@ void __interrupt(high_priority) Rotart_Encoder_ISR()
         else
         {
             pwm_val--;
+            if (pwm_val >= 200)
+            {
+                pwm_val = 190;
+            }
         }
     }
 }
