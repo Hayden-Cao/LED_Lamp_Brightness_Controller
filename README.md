@@ -10,7 +10,8 @@ A PIC18F4321 microcontroller will be used to generate the PWM signal and to proc
 
 Circuit Schematic:
 
-<img width="830" alt="image" src="https://github.com/pileofhay/LED_Lamp_Brightness_Controller/assets/130268332/0365521b-c376-42d5-b13d-398694968bbb">
+![image](https://github.com/pileofhay/LED_Lamp_Brightness_Controller/assets/130268332/644c8cd1-9ff5-4e48-b362-1df7766c0853)
+
 
 
 ****
