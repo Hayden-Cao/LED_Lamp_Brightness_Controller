@@ -122,9 +122,9 @@ void __interrupt(high_priority) Rotart_Encoder_ISR()
     // pwm_val capped at 0 <= pwm_val <= 255
     if(rot_enc_clk != rot_enc_dt)
     {
-        if(pwm_val == 255)
+        if(pwm_val >= 249)
         {
-            pwm_val = 255;
+            pwm_val = 249;
         } else
         {
             pwm_val++;
