@@ -1,6 +1,12 @@
 # LED_Lamp_Brightness_Controller
 LED Lamp Brightness Controller with Bluetooth Control on a PIC18F4321 Microcontroller
 
+Prototype Demonstration:
+
+To View click on the Image to open the Youtube Link
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/xRQ9Ijzu4HU/0.jpg)](http://www.youtube.com/watch?v=xRQ9Ijzu4HU)
+
 **Overview**
 
 This project uses a HM-10 bluetooth module and a rotary encoder to provide inputs that will change the duty cycle of a PWM signal. This PWM signal feeds into the gate of a TIP122 transistor that will connect a 12V LED bulb to GND whenever the PWM signal is high.
@@ -25,8 +31,3 @@ External peripherals such as a clock or temperature sensor can be added for extr
 
 ****
 
-Prototype Demonstration:
-
-To View Click on the Image to open the Youtube Link
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/xRQ9Ijzu4HU/0.jpg)](http://www.youtube.com/watch?v=xRQ9Ijzu4HU)
